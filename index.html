@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>aplicacion 9 geolocalizacion y acelerometro </title>
+<!-- grupo CSS-->
+<link rel="stylesheet" href="css/temaapp99.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"</script>
+</script>
+</head>
+<body>
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>aplicacion 9 geolocalizacion y acelerometro</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>acelerometro</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>geolocalizacion</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>   
+       
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>JESUS VAZQUEZ DOMINGUEZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+<div data-role="page" id="page2" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>acelerometro</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div id="acelerometro">esperando...</div>
+<a data-role="button" hrel="#" onClick="Detenet();">
+Detener
+</a>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>JESUS VAZQUEZ DOMINGUEZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+<div data-role="page" id="page3" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>geolocalizacion</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div id="geolocalizacion">esperando...</div>
+
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>JESUS VAZQUEZ DOMINGUEZ</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+</body>
+</html>

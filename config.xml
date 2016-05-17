@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<widget xmlns	= "http://www.w3.org/ns/widgets"
+		xmlns:gap	= "http://phonegap.com/ns/1.0"
+		id			= "com.phonegap.example90"
+		versionCode = "10"
+		version		= "1.0.0" >
+		
+		<!-- verisonCode is optional and Android only -->
+		
+	<name>Aplicacion nueve geocalizacion y acelerometro </name>
+	
+	<description>
+		Aplicacion que te muestra la geocalizacion del dispocitivo,de acuerdo a sus cordenadas
+	</description>
+	
+	<preference name="phonegap-version" value="3.1.0" />
+	
+	<author href="http://build.phonegap.com" email="support@phonegap.com">
+		JESUS VAZQUEZ DOMINGUEZ
+		</author>
+		
+<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+<gap:plugin name="org.apache.cordova.vibration" version="0.3.0" />
+<gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
+<gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
+<gap:plugin name="org.apache.cordova.device-motion" version="0.2.10" />
+<!-- Colocar icono app -->
+	
+<icon src="res/android/mdpi.png" />		
+</widget>
